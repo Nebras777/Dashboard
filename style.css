@@ -6,3 +6,11 @@ body {
 .sidebar {
     width: 20rem;
 }
+
+#icon-favicon {
+    width: 3rem;
+}
+
+h1 {
+    display: inline;
+}
