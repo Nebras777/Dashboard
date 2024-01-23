@@ -10,6 +10,7 @@ body {
 
 .side-item.heading {
     padding: 1rem 4rem;
+    margin-bottom: 1rem;
 }
 
 #icon-favicon {
