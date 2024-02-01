@@ -74,3 +74,12 @@ h1 {
 button svg {
     width: 10px;
 }
+
+#github-link {
+    height: 50px;
+}
+
+#pfp {
+    width: 50px;
+    border-radius: 50%;
+}
