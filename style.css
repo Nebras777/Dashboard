@@ -4,13 +4,16 @@
 
 body {
     display: flex;
+    flex-direction: row;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .sidebar {
     width: 20rem;
     height: 100vh;
-    position: fixed;
     background-color: #00C1FA;
 }
 
@@ -54,4 +57,20 @@ h1 {
 
 #communities {
     margin-bottom: 2rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+}
+
+button svg {
+    width: 10px;
 }
