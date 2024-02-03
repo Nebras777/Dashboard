@@ -190,6 +190,22 @@ button svg {
     font-size: xx-large;
 }
 
+.grid div:nth-child(3) {
+    grid-row: 3 / span 2;
+    height: 24.25rem;
+    text-align: center;
+    font-size: x-large;
+}
+
+.grid div:nth-child(3) p {
+    margin-top: 3rem;
+    line-height: 1.75;
+}
+
+.grid div:nth-child(3) a {
+    font-size: xx-large;
+}
+
 .projects h1 {
     padding: 20px;
 }
