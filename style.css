@@ -233,7 +233,7 @@ button svg {
 
 .grid div:nth-child(-n+3) a {
     text-shadow: 0.5px 0.5px 2px gray;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
