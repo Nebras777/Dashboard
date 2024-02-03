@@ -214,6 +214,10 @@ button svg {
     width: 44.5%;
 }
 
+.grid div:nth-child(4) {
+    border-color: yellow;
+}
+
 .projects h1 {
     padding: 20px;
 }
@@ -224,7 +228,7 @@ button svg {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 3px 3px 5px silver;
-    border-left: yellow 17px solid;
+    border-left: red 17px solid;
 }
 
 .grid div:nth-child(-n+3) a {
