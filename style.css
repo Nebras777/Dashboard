@@ -72,6 +72,7 @@ h1 {
     height: 6rem;
     justify-content: space-between;
     padding: 0 1.25rem;
+    gap: 1rem;
 }
 
 .input-div {
@@ -92,12 +93,13 @@ input {
 .input-div button {
     position: absolute;
     left: 0;
-    margin-left: 20px;
+    margin-left: 22px;
 }
 
 .other-navs {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 
 .dropdown {
