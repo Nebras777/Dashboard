@@ -72,7 +72,7 @@ h1 {
     height: 6rem;
     justify-content: space-between;
     padding: 0 1.25rem;
-    gap: 1rem;
+    gap: 25px;
 }
 
 .input-div {
@@ -86,24 +86,47 @@ h1 {
 input {
     flex: 1;
     height: 50%;
-    border: 1px solid black;
+    border: none;
     border-radius: 25px;
+    background-color: rgb(223, 223, 223);
+    padding: 0 50px;
+    font-size: large;
+    vertical-align: baseline;
+    box-shadow: inset 2px 2px 2px rgb(169, 169, 169);
 }
 
 .input-div button {
     position: absolute;
     left: 0;
-    margin-left: 22px;
+    margin-left: 15px;
+    height: 40%;
+    border-radius: 25%;
+    width: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.input-div > button > svg {
+    width: 100%;
 }
 
 .other-navs {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.25rem;
 }
 
-.dropdown {
+.other-navs button {
     display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+}
+
+.other-navs button svg {
+    width: 22.5px;
 }
 
 button svg {
@@ -121,5 +144,11 @@ button svg {
 
 .profile-info {
     display: flex;
+    gap: 1rem;
     align-items: center;
+    margin: 0 10px;
+}
+
+.profile-info span {
+    font-weight: 700;
 }
