@@ -161,4 +161,35 @@ button svg {
     background-color: rgb(223, 235, 236);
     flex: 1;
     z-index: 1;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 20px;
+}
+
+.projects h1 {
+    padding: 20px;
+}
+
+.grid div {
+    background-color: white;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px silver;
+}
+.grid a {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.grid p {
+    margin-top: 1.5rem;
 }
