@@ -15,6 +15,7 @@ body {
     width: 20rem;
     height: 100vh;
     background-color: #00C1FA;
+    position: sticky;
 }
 
 .side-item.heading {
@@ -73,6 +74,9 @@ h1 {
     justify-content: space-between;
     padding: 0 1.25rem;
     gap: 25px;
+    box-shadow: 0px 2px 10px rgb(169, 169, 169);
+    z-index: 2;
+    position: sticky;
 }
 
 .input-div {
@@ -88,7 +92,7 @@ input {
     height: 50%;
     border: none;
     border-radius: 25px;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(223, 235, 236);
     padding: 0 50px;
     font-size: large;
     vertical-align: baseline;
@@ -151,4 +155,10 @@ button svg {
 
 .profile-info span {
     font-weight: 700;
+}
+
+.projects {
+    background-color: rgb(223, 235, 236);
+    flex: 1;
+    z-index: 1;
 }
